@@ -1309,6 +1309,7 @@ mlcfg
 mmdeviceapi
 mmi
 mmsys
+mmsystem
 mockapi
 MODECHANGE
 moderncop
@@ -1472,6 +1473,7 @@ NOTIFYICONDATAW
 NOTIMPL
 notmatch
 Noto
+NOTOPMOST
 NOTRACK
 NOUPDATE
 NOZORDER
@@ -2078,6 +2080,7 @@ svgpreviewhandler
 SWC
 SWFO
 Switchbetweenvirtualdesktops
+SWITCHEND
 SWP
 swprintf
 SWRESTORE
@@ -2098,6 +2101,7 @@ SYSKEYUP
 syslog
 SYSMENU
 systemd
+SYSTEMASTERISK
 SYSTEMTIME
 systray
 Tadele
@@ -2402,6 +2406,7 @@ Winhook
 winkey
 WINL
 winmd
+winmm
 winnt
 winres
 winrt
