@@ -13,55 +13,55 @@
 ## Functional tests
 
  Regressions:
- - [ ] https://github.com/microsoft/PowerToys/issues/1414#issuecomment-593529038
- - [ ] https://github.com/microsoft/PowerToys/issues/1524
+ - [x] https://github.com/microsoft/PowerToys/issues/1414#issuecomment-593529038
+ - [x] https://github.com/microsoft/PowerToys/issues/1524
 
 ## Localization
  Change the Winodws language to a language different than English. Then verify if the following screens change their language:
- - [ ] System tray menu items
- - [ ] Settings
- - [ ] OOBE (What's new)
- - [ ] Keyboard Manager Editor
- - [ ] Color Picker (check the tooltips)
- - [ ] FancyZones Editor
- - [ ] Power Rename (new WinUI 3 may not be localized)
- - [ ] Image Resizer
- - [ ] Shortcut Guide (Windows controls are localized)
- - [ ] File Explorer menu entries for Image Resizer and Power Rename
+ - [x] System tray menu items
+ - [x] Settings
+ - [x] OOBE (What's new)
+ - [x] Keyboard Manager Editor
+ - [x] Color Picker (check the tooltips)
+ - [x] FancyZones Editor
+ - [x] Power Rename (new WinUI 3 may not be localized)
+ - [x] Image Resizer
+ - [x] Shortcut Guide (Windows controls are localized)
+ - [x] File Explorer menu entries for Image Resizer and Power Rename
 
 ## General Settings
 
 **Admin mode:**
- - [ ] restart PT and verify it runs as user
- - [ ] restart as admin and set "Always run as admin"
- - [ ] restart PT and verify it  runs as admin
+ - [x] restart PT and verify it runs as user
+ - [x] restart as admin and set "Always run as admin"
+ - [x] restart PT and verify it  runs as admin
  * if it's not on, turn on "Run at startup"
- - [ ] reboot the machine and verify PT runs as admin (it should not prompt the UAC dialog)
+ - [x] reboot the machine and verify PT runs as admin (it should not prompt the UAC dialog)
  * turn Always run as admin" off
- - [ ] reboot the machine and verify it now runs as user
+ - [x] reboot the machine and verify it now runs as user
 
 **Modules on/off:**
- - [ ] turn off all the modules and verify all module are off
- - [ ] restart PT and verify that all module are still off in the settings page and they are actually inactive
- - [ ] turn on all the module, all module are now working
- - [ ] restart PT and verify that all module are still on in the settings page and they are actually working
+ - [x] turn off all the modules and verify all module are off
+ - [x] restart PT and verify that all module are still off in the settings page and they are actually inactive
+ - [x] turn on all the module, all module are now working
+ - [x] restart PT and verify that all module are still on in the settings page and they are actually working
 
 ## Color Picker
 * Enable the Color Picker in settings and ensure that the hotkey brings up Color Picker
-  - [ ] when PowerToys is running unelevated on start-up
-  - [ ] when PowerToys is running as admin on start-up
-  - [ ] when PowerToys is restarted as admin, by clicking the restart as admin button in the settings
-- [ ] Change `Activate Color Picker shortcut` and check the new shortcut is working
-- [ ] Try all three `Activation behavior`s(`Color Picker with editor mode enabled`, `Editor`, `Color Picker only`)
-- [ ] Change `Color format for clipboard` and check if the correct format is copied from the Color picker
-- [ ] Try to copy color formats to the clipboard from the Editor
-- [ ] Check `Show color name` and verify if color name is shown in the Color picker
-- [ ] Enable one new format, disable one existing format, reorder enabled formats and check if settings are populated to the Editor
-- [ ] Select a color from the history in the Editor
-- [ ] Remove color from the history in the Editor
-- [ ] Open the Color Picker from the Editor
-- [ ] Open Adjust color from the Editor
-- [ ] Check Color Picker logs for errors
+  - [x] when PowerToys is running unelevated on start-up
+  - [x] when PowerToys is running as admin on start-up
+  - [x] when PowerToys is restarted as admin, by clicking the restart as admin button in the settings
+- [x] Change `Activate Color Picker shortcut` and check the new shortcut is working
+- [x] Try all three `Activation behavior`s(`Color Picker with editor mode enabled`, `Editor`, `Color Picker only`)
+- [x] Change `Color format for clipboard` and check if the correct format is copied from the Color picker
+- [x] Try to copy color formats to the clipboard from the Editor
+- [x] Check `Show color name` and verify if color name is shown in the Color picker
+- [x] Enable one new format, disable one existing format, reorder enabled formats and check if settings are populated to the Editor
+- [x] Select a color from the history in the Editor
+- [x] Remove color from the history in the Editor
+- [x] Open the Color Picker from the Editor
+- [x] Open Adjust color from the Editor
+- [x] Check Color Picker logs for errors
 
 ## FancyZones Editor
 
@@ -322,13 +322,13 @@ Mouse Highlighter:
     - [ ] Fade duration
 
 ## VCM
- - [ ] Check "Hide toolbar when both camera and micrphone are unmuted" and verify that it works
- - [ ] Uncheck it, mute the microphone with the hotkey and make sure the toolbar doesn't hide after a timeout
- - [ ] Go to some video conference application settings, e.g. meet.google.com, Microsoft Teams, Skype. "Select PowerToys VideoConference Mute" camera as an active device and try to mute it with a hotkey
- - [ ] Go to Control Panel -> Sound -> Recording -> select default mic -> open its properties -> Levels.  Now mute the microphone with a corresponding hotkey and verify that mute icon on the right side of volume slider reflects its muted status.
- - [ ] Verify that changing "toolbar position" setting works 
- - [ ] Select an overlay image and verify that muting camera now shows the image instead of black screen. (Don't forget to restart the application which uses the camera).
- - [ ] Try to select an overlay image when PT process is elevated. (Currently doesn't work)
+ - [x] Check "Hide toolbar when both camera and micrphone are unmuted" and verify that it works
+ - [x] Uncheck it, mute the microphone with the hotkey and make sure the toolbar doesn't hide after a timeout
+ - [x] Go to some video conference application settings, e.g. meet.google.com, Microsoft Teams, Skype. "Select PowerToys VideoConference Mute" camera as an active device and try to mute it with a hotkey
+ - [x] Go to Control Panel -> Sound -> Recording -> select default mic -> open its properties -> Levels.  Now mute the microphone with a corresponding hotkey and verify that mute icon on the right side of volume slider reflects its muted status.
+ - [x] Verify that changing "toolbar position" setting works 
+ - [x] Select an overlay image and verify that muting camera now shows the image instead of black screen. (Don't forget to restart the application which uses the camera).
+ - [x] Try to select an overlay image when PT process is elevated. (Currently doesn't work)
 
 ## Awake
  - [ ] Try out the features and see if they work, no list at this time.
